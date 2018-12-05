@@ -1,0 +1,12 @@
+<form>
+    <input type ="text" placeholder="Qno" name="Qno" #Qno><br><br>  
+  <input type ="text" placeholder="question" name="question" #question><br><br>
+    <input type ="text" placeholder="option1" name="option1" #option1><br><br>
+    <input type ="text" placeholder="option2" name="option2"#option2><br><br>
+    <input type ="text" placeholder="option3" name="option3"#option3><br><br>
+    <input type ="text" placeholder="option4" name="option4"#option4><br><br>
+    <input type ="text" placeholder="keyanswer" name="keyanswer"#keyanswer><br><br>
+  
+    <input type="submit" value= "Submit" (click)="createquestion(Qno.value,question.value,option1.value,option2.value,option3.value,option4.value,keyanswer.value)">
+    </form>
+  
